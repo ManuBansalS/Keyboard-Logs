@@ -1,5 +1,5 @@
 const insert  = document.getElementById('insert')
-let keyHistory = []
+let keyHistory = new Array()
 
 function renderData(){
     insert.innerHTML = 
